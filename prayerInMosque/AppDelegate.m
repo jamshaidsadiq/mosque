@@ -8,10 +8,13 @@
 
 #import "AppDelegate.h"
 #import <PKRevealController/PKRevealController.h>
+#import "LeftMenuViewController.h"
+#import "HomeViewController.h"
 @interface AppDelegate () <PKRevealing>
 
 #pragma mark - Properties
 @property (nonatomic, strong, readwrite) PKRevealController *revealController;
+
 @end
 
 @implementation AppDelegate
@@ -20,17 +23,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    // Step 1: Create your controllers.
-    UIViewController *frontViewController = [[UIViewController alloc] init];
-    frontViewController.view.backgroundColor = [UIColor orangeColor];
+    LeftMenuViewController * leftController = [[UIStoryboard storyboardWithName:@"Views" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
     
-    UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:frontViewController];
-    UIViewController *rightViewController = [[UIViewController alloc] init];
-    rightViewController.view.backgroundColor = [UIColor redColor];
+    HomeViewController * homeController = [[UIStoryboard storyboardWithName:@"Views" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomeViewController"];
+   
+    
+    UINavigationController * frontNavController = [[UINavigationController alloc] initWithRootViewController:homeController];
+    
+    
+    // Step 1: Create your controllers.
+//    UIViewController *frontViewController = [[UIViewController alloc] init];
+//    frontViewController.view.backgroundColor = [UIColor orangeColor];
+//    
+  // UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:frontViewController];
+//    UIViewController *rightViewController = [[UIViewController alloc] init];
+//    rightViewController.view.backgroundColor = [UIColor redColor];
     
     // Step 2: Instantiate.
-    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavigationController
-                                                                     leftViewController:nil
+    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavController
+                                                                     leftViewController:leftController
                                                             rightViewController:nil];
     // Step 3: Configure.
     self.revealController.delegate = self;
