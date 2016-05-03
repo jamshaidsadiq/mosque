@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonPressed:(id)sender {
+    
+    [(AppDelegate *)[[UIApplication sharedApplication] delegate] initializePkRevealController];
 }
 
 @end

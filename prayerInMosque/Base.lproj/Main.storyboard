@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -20,16 +21,35 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginbg" translatesAutoresizingMaskIntoConstraints="NO" id="nIG-bU-hA2">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30j-8u-DMc">
-                                <rect key="frame" x="13" y="422" width="388" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30j-8u-DMc">
+                                <rect key="frame" x="13" y="434" width="388" height="86"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.28313386524822692" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="30j-8u-DMc" secondAttribute="height" multiplier="194:43" id="MHo-PD-XRh"/>
+                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUe-Ml-1eP">
+                                <rect key="frame" x="78" y="552" width="265" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XUe-Ml-1eP" secondAttribute="height" multiplier="53:6" id="Dtu-12-LAJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nU-3u-WIH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XUe-Ml-1eP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="78" id="20v-0H-4nU"/>
+                            <constraint firstAttribute="trailing" secondItem="30j-8u-DMc" secondAttribute="trailing" constant="13" id="5Fd-kT-rkb"/>
+                            <constraint firstItem="XUe-Ml-1eP" firstAttribute="top" secondItem="30j-8u-DMc" secondAttribute="bottom" constant="32" id="Bov-1v-QSp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nIG-bU-hA2" secondAttribute="bottom" id="EE4-Jh-t4Q"/>
+                            <constraint firstAttribute="trailing" secondItem="XUe-Ml-1eP" secondAttribute="trailing" constant="71" id="RFX-hK-mSP"/>
                             <constraint firstAttribute="trailing" secondItem="nIG-bU-hA2" secondAttribute="trailing" id="XOP-gd-tNE"/>
+                            <constraint firstItem="30j-8u-DMc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13" id="f7S-Ti-pDy"/>
                             <constraint firstItem="nIG-bU-hA2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qH9-j1-XLf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="30j-8u-DMc" secondAttribute="bottom" constant="216" id="qU7-El-faO"/>
                             <constraint firstItem="nIG-bU-hA2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yto-vA-Gog"/>
                         </constraints>
                     </view>
