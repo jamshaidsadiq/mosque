@@ -14,6 +14,11 @@
 		544661E21CD8AAA100D2A88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661E01CD8AAA100D2A88B /* Main.storyboard */; };
 		544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544661E31CD8AAA100D2A88B /* Assets.xcassets */; };
 		544661E71CD8AAA100D2A88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661E51CD8AAA100D2A88B /* LaunchScreen.storyboard */; };
+
+		544661F51CD8B9CA00D2A88B /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544661F41CD8B9CA00D2A88B /* LeftMenuViewController.m */; };
+		544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661F61CD8B9F700D2A88B /* Views.storyboard */; };
+		544661FA1CD8BBC700D2A88B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544661F91CD8BBC700D2A88B /* HomeViewController.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,13 @@
 		544661E31CD8AAA100D2A88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544661E61CD8AAA100D2A88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544661E81CD8AAA100D2A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		544661F31CD8B9CA00D2A88B /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		544661F41CD8B9CA00D2A88B /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		544661F61CD8B9F700D2A88B /* Views.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		544661F81CD8BBC700D2A88B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		544661F91CD8BBC700D2A88B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+
 		6102EEC50BEBEC5AB5709873 /* Pods-prayerInMosque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prayerInMosque.debug.xcconfig"; path = "Pods/Target Support Files/Pods-prayerInMosque/Pods-prayerInMosque.debug.xcconfig"; sourceTree = "<group>"; };
 		AB9243FB517185B4B34219A5 /* libPods-prayerInMosque.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-prayerInMosque.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE2A5EB4539EF0365CBEBA9 /* Pods-prayerInMosque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prayerInMosque.release.xcconfig"; path = "Pods/Target Support Files/Pods-prayerInMosque/Pods-prayerInMosque.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +77,17 @@
 		544661D61CD8AAA100D2A88B /* prayerInMosque */ = {
 			isa = PBXGroup;
 			children = (
-				5ABF8B861CD8BC3200222AE4 /* Controllers */,
+
 				544661DA1CD8AAA100D2A88B /* AppDelegate.h */,
 				544661DB1CD8AAA100D2A88B /* AppDelegate.m */,
+				544661DD1CD8AAA100D2A88B /* ViewController.h */,
+				544661DE1CD8AAA100D2A88B /* ViewController.m */,
+				544661F31CD8B9CA00D2A88B /* LeftMenuViewController.h */,
+				544661F41CD8B9CA00D2A88B /* LeftMenuViewController.m */,
+				544661F81CD8BBC700D2A88B /* HomeViewController.h */,
+				544661F91CD8BBC700D2A88B /* HomeViewController.m */,
+				544661F61CD8B9F700D2A88B /* Views.storyboard */,
+
 				544661E01CD8AAA100D2A88B /* Main.storyboard */,
 				544661E31CD8AAA100D2A88B /* Assets.xcassets */,
 				544661E51CD8AAA100D2A88B /* LaunchScreen.storyboard */,
@@ -85,6 +105,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+
 		5ABF8B861CD8BC3200222AE4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +123,7 @@
 			name = FamilyCodeVc;
 			sourceTree = "<group>";
 		};
+
 		8D184AF2E47D2AC1F1A89653 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				544661E71CD8AAA100D2A88B /* LaunchScreen.storyboard in Resources */,
+
+				544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */,
+
 				544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */,
 				544661E21CD8AAA100D2A88B /* Main.storyboard in Resources */,
 			);
@@ -242,6 +267,10 @@
 			files = (
 				544661DF1CD8AAA100D2A88B /* ViewController.m in Sources */,
 				544661DC1CD8AAA100D2A88B /* AppDelegate.m in Sources */,
+
+				544661F51CD8B9CA00D2A88B /* LeftMenuViewController.m in Sources */,
+				544661FA1CD8BBC700D2A88B /* HomeViewController.m in Sources */,
+
 				544661D91CD8AAA100D2A88B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +385,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = prayerInMosque/Info.plist;
+
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = humza.prayerInMosque;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,7 +400,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = prayerInMosque/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+
+
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = humza.prayerInMosque;
 				PRODUCT_NAME = "$(TARGET_NAME)";
