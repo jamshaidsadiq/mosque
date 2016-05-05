@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "ViewHelper.h"
+#import "MosqueDetailViewController.h"
 
 @interface LoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIView *overLayView1;
@@ -86,6 +87,13 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
     [self.view endEditing:YES];
+    
+}
+- (IBAction)SignUpWithfacebook:(id)sender {
+    
+    MosqueDetailViewController *mosqueDetail = [self.storyboard instantiateViewControllerWithIdentifier:@"MosqueDetailViewController"];
+    
+    [self.navigationController pushViewController:mosqueDetail animated:YES];
     
 }
 

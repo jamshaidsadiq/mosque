@@ -25,6 +25,16 @@
             <string>MyriadPro-Regular</string>
             <string>MyriadPro-Regular</string>
             <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -188,6 +198,309 @@
             </objects>
             <point key="canvasLocation" x="340" y="1037"/>
         </scene>
+        <!--Badshahi Mosque-->
+        <scene sceneID="ETC-b1-UYh">
+            <objects>
+                <viewController storyboardIdentifier="MosqueDetailViewController" id="upZ-an-14P" customClass="MosqueDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RNh-gi-S6q"/>
+                        <viewControllerLayoutGuide type="bottom" id="fwY-pc-aZf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kiz-2P-cGK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nGH-BR-9BN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MosqueImageTableViewCell" rowHeight="414" id="gtd-si-od2" customClass="MosqueImageTableViewCell">
+                                        <rect key="frame" x="0.0" y="92" width="414" height="414"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gtd-si-od2" id="VZ9-4D-rUY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="413.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ll0-sL-0Oz">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="413"/>
+                                                </scrollView>
+                                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="LH0-Ty-9V9">
+                                                    <rect key="frame" x="187" y="373" width="39" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="E3s-Rv-fvp"/>
+                                                        <constraint firstAttribute="width" constant="39" id="NVl-wX-5ez"/>
+                                                    </constraints>
+                                                </pageControl>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="LH0-Ty-9V9" firstAttribute="centerX" secondItem="VZ9-4D-rUY" secondAttribute="centerX" id="4pr-VK-UGS"/>
+                                                <constraint firstAttribute="trailing" secondItem="ll0-sL-0Oz" secondAttribute="trailing" id="bGJ-7S-Zp9"/>
+                                                <constraint firstAttribute="bottom" secondItem="LH0-Ty-9V9" secondAttribute="bottom" constant="3.5" id="doh-UO-EUl"/>
+                                                <constraint firstItem="ll0-sL-0Oz" firstAttribute="leading" secondItem="VZ9-4D-rUY" secondAttribute="leading" id="hAc-Cc-ue0"/>
+                                                <constraint firstItem="ll0-sL-0Oz" firstAttribute="top" secondItem="VZ9-4D-rUY" secondAttribute="top" id="iDM-fA-1pc"/>
+                                                <constraint firstAttribute="bottom" secondItem="ll0-sL-0Oz" secondAttribute="bottom" constant="0.5" id="oI1-op-Aat"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="pageControll" destination="LH0-Ty-9V9" id="Job-nA-FF4"/>
+                                            <outlet property="scrollView" destination="ll0-sL-0Oz" id="iab-sc-Jc2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderTableViewCell" id="RJJ-OG-nry" customClass="HeaderTableViewCell">
+                                        <rect key="frame" x="0.0" y="506" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RJJ-OG-nry" id="dsi-Ga-z2T">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mg-KY-ope">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiD-Jw-TlX">
+                                                            <rect key="frame" x="13" y="11" width="119" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="119" id="m4y-Ws-v29"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="19"/>
+                                                            <color key="textColor" red="0.61960784313725492" green="0.78431372549019607" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="FiD-Jw-TlX" secondAttribute="bottom" constant="11" id="4hz-UL-hFO"/>
+                                                        <constraint firstItem="FiD-Jw-TlX" firstAttribute="top" secondItem="5mg-KY-ope" secondAttribute="top" constant="11" id="BN5-Le-0pS"/>
+                                                        <constraint firstItem="FiD-Jw-TlX" firstAttribute="leading" secondItem="5mg-KY-ope" secondAttribute="leading" constant="13" id="Pbk-7r-o3g"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5mg-KY-ope" firstAttribute="top" secondItem="dsi-Ga-z2T" secondAttribute="top" id="43H-Ed-8If"/>
+                                                <constraint firstItem="5mg-KY-ope" firstAttribute="leading" secondItem="dsi-Ga-z2T" secondAttribute="leading" id="Jgy-QU-QrO"/>
+                                                <constraint firstAttribute="bottom" secondItem="5mg-KY-ope" secondAttribute="bottom" constant="0.5" id="WUB-uS-EOY"/>
+                                                <constraint firstAttribute="trailing" secondItem="5mg-KY-ope" secondAttribute="trailing" id="mqz-yw-uyV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="title" destination="FiD-Jw-TlX" id="mSZ-dG-aCF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DescriptionTableViewCell" id="Hgj-ZU-3lE" customClass="DescriptionTableViewCell">
+                                        <rect key="frame" x="0.0" y="550" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hgj-ZU-3lE" id="IT5-Q4-PlV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="368" placeholderIntrinsicHeight="21" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toN-yG-cMI">
+                                                    <rect key="frame" x="13" y="8" width="368" height="21"/>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="toN-yG-cMI" secondAttribute="trailing" constant="33" id="9Yl-6P-G9y"/>
+                                                <constraint firstItem="toN-yG-cMI" firstAttribute="leading" secondItem="IT5-Q4-PlV" secondAttribute="leading" constant="13" id="IOh-VC-wbR"/>
+                                                <constraint firstItem="toN-yG-cMI" firstAttribute="top" secondItem="IT5-Q4-PlV" secondAttribute="top" constant="8" id="J2X-m4-W6W"/>
+                                                <constraint firstAttribute="bottom" secondItem="toN-yG-cMI" secondAttribute="bottom" constant="14.5" id="SBD-hW-D6y"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblDescription" destination="toN-yG-cMI" id="AMJ-Ii-qKz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PrayerTimeTableViewCell" rowHeight="150" id="HM1-d2-fiM" customClass="PrayerTimeTableViewCell">
+                                        <rect key="frame" x="0.0" y="594" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HM1-d2-fiM" id="LSx-ns-8uG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fajar: 4:40 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyb-Ac-VOs">
+                                                    <rect key="frame" x="13" y="17" width="120" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="iKl-AZ-rDY"/>
+                                                        <constraint firstAttribute="height" constant="21" id="zfC-mb-PAy"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duhar:  4:40 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3y-w1-kr0">
+                                                    <rect key="frame" x="262" y="17" width="137" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="LEo-uQ-wRo"/>
+                                                        <constraint firstAttribute="width" constant="137" id="jKh-h9-ZDG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asr: 4:40 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1L-fH-JuU">
+                                                    <rect key="frame" x="13" y="62" width="120" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Rkr-X4-Ml8"/>
+                                                        <constraint firstAttribute="width" constant="120" id="Tuv-oh-6QW"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isha: 4:40 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcX-XT-bMB">
+                                                    <rect key="frame" x="13" y="104" width="120" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="CbI-zq-6xj"/>
+                                                        <constraint firstAttribute="height" constant="21" id="wbX-Md-Vm0"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maghrib:  4:40 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whC-Qb-afr">
+                                                    <rect key="frame" x="262" y="62" width="137" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="XQH-Ik-ZdL"/>
+                                                        <constraint firstAttribute="width" constant="137" id="YLP-A9-6TB"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Zyb-Ac-VOs" firstAttribute="leading" secondItem="LSx-ns-8uG" secondAttribute="leading" constant="13" id="09c-kF-UFL"/>
+                                                <constraint firstItem="s1L-fH-JuU" firstAttribute="top" secondItem="Zyb-Ac-VOs" secondAttribute="bottom" constant="24" id="ADY-e4-1RA"/>
+                                                <constraint firstItem="IcX-XT-bMB" firstAttribute="leading" secondItem="LSx-ns-8uG" secondAttribute="leading" constant="13" id="KbH-Hd-22d"/>
+                                                <constraint firstItem="IcX-XT-bMB" firstAttribute="top" secondItem="s1L-fH-JuU" secondAttribute="bottom" constant="21" id="ONT-9l-get"/>
+                                                <constraint firstItem="u3y-w1-kr0" firstAttribute="top" secondItem="LSx-ns-8uG" secondAttribute="top" constant="17" id="a9Y-qK-A4l"/>
+                                                <constraint firstItem="whC-Qb-afr" firstAttribute="top" secondItem="u3y-w1-kr0" secondAttribute="bottom" constant="24" id="n7M-3F-eOl"/>
+                                                <constraint firstAttribute="trailing" secondItem="whC-Qb-afr" secondAttribute="trailing" constant="15" id="pzc-ea-JJR"/>
+                                                <constraint firstItem="s1L-fH-JuU" firstAttribute="leading" secondItem="LSx-ns-8uG" secondAttribute="leading" constant="13" id="uar-NX-pdW"/>
+                                                <constraint firstAttribute="trailing" secondItem="u3y-w1-kr0" secondAttribute="trailing" constant="15" id="xNX-nu-jnh"/>
+                                                <constraint firstItem="Zyb-Ac-VOs" firstAttribute="top" secondItem="LSx-ns-8uG" secondAttribute="top" constant="17" id="zUG-yE-wPS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outletCollection property="lblTime" destination="Zyb-Ac-VOs" id="fcY-dY-lqd"/>
+                                            <outletCollection property="lblTime" destination="u3y-w1-kr0" id="RLy-lK-khf"/>
+                                            <outletCollection property="lblTime" destination="s1L-fH-JuU" id="64e-Xx-HoH"/>
+                                            <outletCollection property="lblTime" destination="whC-Qb-afr" id="qrt-u9-Ba1"/>
+                                            <outletCollection property="lblTime" destination="IcX-XT-bMB" id="mSf-L0-aew"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MosqueAddressTableViewCell" rowHeight="150" id="nDJ-Wu-UJ7" customClass="MosqueAddressTableViewCell">
+                                        <rect key="frame" x="0.0" y="744" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nDJ-Wu-UJ7" id="Xby-i7-CTZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="fNO-7l-tWU">
+                                                    <rect key="frame" x="13" y="32" width="16" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="PRA-3n-V3a"/>
+                                                        <constraint firstAttribute="width" constant="16" id="gDx-Qc-bRN"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walled City, Lahore Pakistan. 5 KM away " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgQ-oY-Sop">
+                                                    <rect key="frame" x="42" y="8" width="359" height="77"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="77" id="Hl3-jO-qHN"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="19"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fNO-7l-tWU" firstAttribute="leading" secondItem="Xby-i7-CTZ" secondAttribute="leading" constant="13" id="6py-N3-vu4"/>
+                                                <constraint firstItem="ZgQ-oY-Sop" firstAttribute="leading" secondItem="fNO-7l-tWU" secondAttribute="trailing" constant="13" id="fQH-lq-cbu"/>
+                                                <constraint firstItem="fNO-7l-tWU" firstAttribute="top" secondItem="Xby-i7-CTZ" secondAttribute="top" constant="32" id="g1Q-Au-3vh"/>
+                                                <constraint firstItem="ZgQ-oY-Sop" firstAttribute="top" secondItem="Xby-i7-CTZ" secondAttribute="top" constant="8" id="j4A-41-lWH"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZgQ-oY-Sop" secondAttribute="trailing" constant="13" id="t7w-bF-cbL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblAddress" destination="ZgQ-oY-Sop" id="i2R-sr-Loc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImamTableViewCell" rowHeight="123" id="7IM-Vc-Zs1" customClass="ImamTableViewCell">
+                                        <rect key="frame" x="0.0" y="894" width="414" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7IM-Vc-Zs1" id="EHR-VL-y4J">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="122.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Humza Shahid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx5-ld-ibc">
+                                                    <rect key="frame" x="13" y="31" width="285" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="aLt-Pf-Bai"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="humza" translatesAutoresizingMaskIntoConstraints="NO" id="ieJ-bk-7ra">
+                                                    <rect key="frame" x="306" y="8" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="pig-7F-uE3"/>
+                                                        <constraint firstAttribute="width" constant="100" id="zBE-a5-lNn"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: 45 Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJy-CP-ZXo">
+                                                    <rect key="frame" x="13" y="68" width="133" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="d0m-du-CSa"/>
+                                                        <constraint firstAttribute="width" constant="133" id="tsN-fZ-lF2"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cJy-CP-ZXo" firstAttribute="top" secondItem="Rx5-ld-ibc" secondAttribute="bottom" constant="16" id="28s-vf-p24"/>
+                                                <constraint firstItem="ieJ-bk-7ra" firstAttribute="top" secondItem="EHR-VL-y4J" secondAttribute="top" constant="8" id="9Os-mA-Gfv"/>
+                                                <constraint firstItem="ieJ-bk-7ra" firstAttribute="leading" secondItem="Rx5-ld-ibc" secondAttribute="trailing" constant="8" id="ABK-kC-xgQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="ieJ-bk-7ra" secondAttribute="trailing" constant="8" id="Oay-6j-0m5"/>
+                                                <constraint firstItem="Rx5-ld-ibc" firstAttribute="leading" secondItem="EHR-VL-y4J" secondAttribute="leading" constant="13" id="XV9-ng-gqw"/>
+                                                <constraint firstItem="cJy-CP-ZXo" firstAttribute="leading" secondItem="EHR-VL-y4J" secondAttribute="leading" constant="13" id="hZk-y8-sLK"/>
+                                                <constraint firstItem="Rx5-ld-ibc" firstAttribute="top" secondItem="EHR-VL-y4J" secondAttribute="top" constant="31" id="tJH-ca-yhd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="upZ-an-14P" id="Pu2-zm-bFZ"/>
+                                    <outlet property="delegate" destination="upZ-an-14P" id="lWR-Tk-sVi"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nGH-BR-9BN" firstAttribute="top" secondItem="kiz-2P-cGK" secondAttribute="top" id="7IJ-zp-Pbb"/>
+                            <constraint firstAttribute="trailing" secondItem="nGH-BR-9BN" secondAttribute="trailing" id="bUH-Cf-6cf"/>
+                            <constraint firstItem="nGH-BR-9BN" firstAttribute="leading" secondItem="kiz-2P-cGK" secondAttribute="leading" id="rp1-R8-vvZ"/>
+                            <constraint firstItem="fwY-pc-aZf" firstAttribute="top" secondItem="nGH-BR-9BN" secondAttribute="bottom" id="vfd-td-L19"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Badshahi Mosque" id="vbn-IT-doN">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="HnT-2a-Pj6">
+                            <color key="tintColor" red="0.25490196079999999" green="0.41568627450000001" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="tableView" destination="nGH-BR-9BN" id="Ap3-VO-gU5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="veZ-qQ-Rdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="978" y="1487"/>
+        </scene>
         <!--Login View Controller-->
         <scene sceneID="G01-YL-Muo">
             <objects>
@@ -272,6 +585,9 @@
                                         <state key="normal" title="Sign Up With Facebook">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="SignUpWithfacebook:" destination="M20-8D-fx2" eventType="touchUpInside" id="JvO-re-ROd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XW8-wp-VhG">
                                         <rect key="frame" x="8" y="61" width="372" height="49"/>
@@ -517,6 +833,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back" width="19" height="19"/>
+        <image name="humza" width="1140" height="1140"/>
+        <image name="location" width="16" height="21"/>
         <image name="loginbg" width="414" height="736"/>
     </resources>
 </document>

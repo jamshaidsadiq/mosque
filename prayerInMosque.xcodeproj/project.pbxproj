@@ -14,6 +14,13 @@
 		544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544661E31CD8AAA100D2A88B /* Assets.xcassets */; };
 		544661E71CD8AAA100D2A88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661E51CD8AAA100D2A88B /* LaunchScreen.storyboard */; };
 		544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661F61CD8B9F700D2A88B /* Views.storyboard */; };
+		5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */; };
+		5A08AEE71CD9D4DC00B3F5CF /* MosqueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */; };
+		5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEEC1CD9E40600B3F5CF /* HeaderTableViewCell.m */; };
+		5A08AEF01CD9FCFF00B3F5CF /* DescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEEF1CD9FCFF00B3F5CF /* DescriptionTableViewCell.m */; };
+		5A08AEF31CDA16B000B3F5CF /* PrayerTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEF21CDA16B000B3F5CF /* PrayerTimeTableViewCell.m */; };
+		5A08AEF61CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */; };
+		5A170A1F1CDB61510095B561 /* ImamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */; };
 		5A776F0C1CD8D70A00597DC0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F071CD8D70A00597DC0 /* HomeViewController.m */; };
 		5A776F0D1CD8D70A00597DC0 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F091CD8D70A00597DC0 /* LeftMenuViewController.m */; };
 		5A776F0E1CD8D70A00597DC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F0B1CD8D70A00597DC0 /* ViewController.m */; };
@@ -33,6 +40,20 @@
 		544661E61CD8AAA100D2A88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544661E81CD8AAA100D2A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544661F61CD8B9F700D2A88B /* Views.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		5A08AEE21CD9D32300B3F5CF /* MosqueImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueImageTableViewCell.h; sourceTree = "<group>"; };
+		5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueImageTableViewCell.m; sourceTree = "<group>"; };
+		5A08AEE51CD9D4DC00B3F5CF /* MosqueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueDetailViewController.h; sourceTree = "<group>"; };
+		5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueDetailViewController.m; sourceTree = "<group>"; };
+		5A08AEEB1CD9E40600B3F5CF /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		5A08AEEC1CD9E40600B3F5CF /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		5A08AEEE1CD9FCFF00B3F5CF /* DescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionTableViewCell.h; sourceTree = "<group>"; };
+		5A08AEEF1CD9FCFF00B3F5CF /* DescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionTableViewCell.m; sourceTree = "<group>"; };
+		5A08AEF11CDA16B000B3F5CF /* PrayerTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerTimeTableViewCell.h; sourceTree = "<group>"; };
+		5A08AEF21CDA16B000B3F5CF /* PrayerTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerTimeTableViewCell.m; sourceTree = "<group>"; };
+		5A08AEF41CDA24DA00B3F5CF /* MosqueAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueAddressTableViewCell.h; sourceTree = "<group>"; };
+		5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueAddressTableViewCell.m; sourceTree = "<group>"; };
+		5A170A1D1CDB61510095B561 /* ImamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImamTableViewCell.h; sourceTree = "<group>"; };
+		5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImamTableViewCell.m; sourceTree = "<group>"; };
 		5A776F061CD8D70A00597DC0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		5A776F071CD8D70A00597DC0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5A776F081CD8D70A00597DC0 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
@@ -84,6 +105,7 @@
 		544661D61CD8AAA100D2A88B /* prayerInMosque */ = {
 			isa = PBXGroup;
 			children = (
+				5A08AEE11CD9D2ED00B3F5CF /* Cells */,
 				5A776F051CD8D70A00597DC0 /* Controllers */,
 				5ABF8B8B1CD8C50D00222AE4 /* Helpers */,
 				5ABF8B881CD8C3BE00222AE4 /* Fonts */,
@@ -107,6 +129,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5A08AEE11CD9D2ED00B3F5CF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A08AEE21CD9D32300B3F5CF /* MosqueImageTableViewCell.h */,
+				5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */,
+				5A08AEEB1CD9E40600B3F5CF /* HeaderTableViewCell.h */,
+				5A08AEEC1CD9E40600B3F5CF /* HeaderTableViewCell.m */,
+				5A08AEEE1CD9FCFF00B3F5CF /* DescriptionTableViewCell.h */,
+				5A08AEEF1CD9FCFF00B3F5CF /* DescriptionTableViewCell.m */,
+				5A08AEF11CDA16B000B3F5CF /* PrayerTimeTableViewCell.h */,
+				5A08AEF21CDA16B000B3F5CF /* PrayerTimeTableViewCell.m */,
+				5A08AEF41CDA24DA00B3F5CF /* MosqueAddressTableViewCell.h */,
+				5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */,
+				5A170A1D1CDB61510095B561 /* ImamTableViewCell.h */,
+				5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		5A776F051CD8D70A00597DC0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +161,8 @@
 				5A776F101CD8D9E300597DC0 /* LoginViewController.m */,
 				5A9D729D1CD8E150007DBAFF /* SignUpViewController.h */,
 				5A9D729E1CD8E150007DBAFF /* SignUpViewController.m */,
+				5A08AEE51CD9D4DC00B3F5CF /* MosqueDetailViewController.h */,
+				5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -285,10 +328,17 @@
 				5ABF8B8E1CD8C53A00222AE4 /* ViewHelper.m in Sources */,
 				5A776F0D1CD8D70A00597DC0 /* LeftMenuViewController.m in Sources */,
 				544661DC1CD8AAA100D2A88B /* AppDelegate.m in Sources */,
+				5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */,
+				5A170A1F1CDB61510095B561 /* ImamTableViewCell.m in Sources */,
+				5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */,
 				5A776F111CD8D9E300597DC0 /* LoginViewController.m in Sources */,
+				5A08AEF31CDA16B000B3F5CF /* PrayerTimeTableViewCell.m in Sources */,
 				5A776F0C1CD8D70A00597DC0 /* HomeViewController.m in Sources */,
+				5A08AEE71CD9D4DC00B3F5CF /* MosqueDetailViewController.m in Sources */,
+				5A08AEF01CD9FCFF00B3F5CF /* DescriptionTableViewCell.m in Sources */,
 				5A9D729F1CD8E150007DBAFF /* SignUpViewController.m in Sources */,
 				544661D91CD8AAA100D2A88B /* main.m in Sources */,
+				5A08AEF61CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
