@@ -7,7 +7,9 @@
 //
 
 #import "LeftMenuViewController.h"
-
+#import "ProfileViewController.h"
+#import "PKRevealController.h"
+#import "AppColors.h"
 @implementation LeftMenuViewController{
      NSArray *cellIdentifiers;
 }
@@ -19,9 +21,15 @@
     self.tableView.separatorColor=[UIColor clearColor];
     self.tableView.tableFooterView=[UIView new];
     self.tableView.backgroundColor=[UIColor clearColor];
+    
+    
+}
+-(void) viewWillAppear:(BOOL)animated{
+    cellIdentifiers=[[NSArray alloc]initWithObjects:@"home",@"profile",@"invite",@"about",nil];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    cellIdentifiers=[[NSArray alloc]initWithObjects:@"home",@"profile",@"invite",@"about",nil];
+     self.tableView.delegate = self;
+    [self.tableView setAllowsSelection:YES];
 }
 
 #pragma mark - tableview delegates
@@ -67,4 +75,14 @@
 
 
 
+- (IBAction)pushToController:(id)sender {
+ 
+    ProfileViewController * controller=[[UIStoryboard storyboardWithName:@"Views" bundle:nil] instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+    
+    UINavigationController * navController=[[UINavigationController alloc] initWithRootViewController:controller];
+    navController.navigationController.navigationBar.alpha=0.85;
+    navController.navigationBar.barTintColor=[UIColor navBarColor];
+    self.revealController.frontViewController=navController;
+    [self.revealController showViewController:self.revealController.frontViewController];
+}
 @end

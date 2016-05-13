@@ -14,6 +14,15 @@
 		544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544661E31CD8AAA100D2A88B /* Assets.xcassets */; };
 		544661E71CD8AAA100D2A88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661E51CD8AAA100D2A88B /* LaunchScreen.storyboard */; };
 		544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544661F61CD8B9F700D2A88B /* Views.storyboard */; };
+		5475CFCC1CE5EDDB0063A18C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFCB1CE5EDDB0063A18C /* ProfileViewController.m */; };
+		5475CFCF1CE5EEF40063A18C /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFCE1CE5EEF40063A18C /* CustomButton.m */; };
+		5475CFDF1CE5F0230063A18C /* AnimatedGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFD31CE5F0230063A18C /* AnimatedGif.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5475CFE01CE5F0230063A18C /* ASStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFD51CE5F0230063A18C /* ASStarRatingView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5475CFE11CE5F0230063A18C /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5475CFD61CE5F0230063A18C /* FontAwesome.otf */; };
+		5475CFE21CE5F0230063A18C /* FontAwesomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFD81CE5F0230063A18C /* FontAwesomeKit.m */; };
+		5475CFE31CE5F0230063A18C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDA1CE5F0230063A18C /* MBProgressHUD.m */; };
+		5475CFE41CE5F0230063A18C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDC1CE5F0230063A18C /* Reachability.m */; };
+		5475CFE51CE5F0230063A18C /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDE1CE5F0230063A18C /* UIImage+animatedGIF.m */; };
 		5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */; };
 		5A08AEE71CD9D4DC00B3F5CF /* MosqueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */; };
 		5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEEC1CD9E40600B3F5CF /* HeaderTableViewCell.m */; };
@@ -51,6 +60,23 @@
 		544661E61CD8AAA100D2A88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544661E81CD8AAA100D2A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544661F61CD8B9F700D2A88B /* Views.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		5475CFCA1CE5EDDB0063A18C /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5475CFCB1CE5EDDB0063A18C /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5475CFCD1CE5EEF40063A18C /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		5475CFCE1CE5EEF40063A18C /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		5475CFD21CE5F0230063A18C /* AnimatedGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedGif.h; sourceTree = "<group>"; };
+		5475CFD31CE5F0230063A18C /* AnimatedGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedGif.m; sourceTree = "<group>"; };
+		5475CFD41CE5F0230063A18C /* ASStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStarRatingView.h; sourceTree = "<group>"; };
+		5475CFD51CE5F0230063A18C /* ASStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStarRatingView.m; sourceTree = "<group>"; };
+		5475CFD61CE5F0230063A18C /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		5475CFD71CE5F0230063A18C /* FontAwesomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
+		5475CFD81CE5F0230063A18C /* FontAwesomeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAwesomeKit.m; sourceTree = "<group>"; };
+		5475CFD91CE5F0230063A18C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5475CFDA1CE5F0230063A18C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5475CFDB1CE5F0230063A18C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5475CFDC1CE5F0230063A18C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5475CFDD1CE5F0230063A18C /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		5475CFDE1CE5F0230063A18C /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		5A08AEE21CD9D32300B3F5CF /* MosqueImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueImageTableViewCell.h; sourceTree = "<group>"; };
 		5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueImageTableViewCell.m; sourceTree = "<group>"; };
 		5A08AEE51CD9D4DC00B3F5CF /* MosqueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueDetailViewController.h; sourceTree = "<group>"; };
@@ -136,6 +162,7 @@
 		544661D61CD8AAA100D2A88B /* prayerInMosque */ = {
 			isa = PBXGroup;
 			children = (
+				5475CFD01CE5F0230063A18C /* Library */,
 				5A08AEE11CD9D2ED00B3F5CF /* Cells */,
 				5A776F051CD8D70A00597DC0 /* Controllers */,
 				5ABF8B8B1CD8C50D00222AE4 /* Helpers */,
@@ -158,6 +185,34 @@
 				544661D81CD8AAA100D2A88B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5475CFD01CE5F0230063A18C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5475CFD11CE5F0230063A18C /* Others */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5475CFD11CE5F0230063A18C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5475CFD21CE5F0230063A18C /* AnimatedGif.h */,
+				5475CFD31CE5F0230063A18C /* AnimatedGif.m */,
+				5475CFD41CE5F0230063A18C /* ASStarRatingView.h */,
+				5475CFD51CE5F0230063A18C /* ASStarRatingView.m */,
+				5475CFD61CE5F0230063A18C /* FontAwesome.otf */,
+				5475CFD71CE5F0230063A18C /* FontAwesomeKit.h */,
+				5475CFD81CE5F0230063A18C /* FontAwesomeKit.m */,
+				5475CFD91CE5F0230063A18C /* MBProgressHUD.h */,
+				5475CFDA1CE5F0230063A18C /* MBProgressHUD.m */,
+				5475CFDB1CE5F0230063A18C /* Reachability.h */,
+				5475CFDC1CE5F0230063A18C /* Reachability.m */,
+				5475CFDD1CE5F0230063A18C /* UIImage+animatedGIF.h */,
+				5475CFDE1CE5F0230063A18C /* UIImage+animatedGIF.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		5A08AEE11CD9D2ED00B3F5CF /* Cells */ = {
@@ -204,6 +259,8 @@
 				5A23DC6E1CDC7DF80016334D /* MyPointsViewController.m */,
 				5A25BA7F1CE1C02200C72535 /* MyClaimsViewController.h */,
 				5A25BA801CE1C02200C72535 /* MyClaimsViewController.m */,
+				5475CFCA1CE5EDDB0063A18C /* ProfileViewController.h */,
+				5475CFCB1CE5EDDB0063A18C /* ProfileViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +284,8 @@
 				5A815F651CE31FF60073D231 /* FontClass.h */,
 				5ABF8B8C1CD8C53A00222AE4 /* ViewHelper.h */,
 				5ABF8B8D1CD8C53A00222AE4 /* ViewHelper.m */,
+				5475CFCD1CE5EEF40063A18C /* CustomButton.h */,
+				5475CFCE1CE5EEF40063A18C /* CustomButton.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -316,6 +375,7 @@
 				5AA145761CE4716C00AB8219 /* OpenSans-Regular.ttf in Resources */,
 				544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */,
 				544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */,
+				5475CFE11CE5F0230063A18C /* FontAwesome.otf in Resources */,
 				544661E21CD8AAA100D2A88B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,14 +435,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5475CFCF1CE5EEF40063A18C /* CustomButton.m in Sources */,
 				5AA145791CE4739100AB8219 /* HomeListViewTableViewCell.m in Sources */,
 				5A2E1CD61CE0B63F00AF9146 /* HeroTableViewCell.m in Sources */,
 				5A815F661CE31FF60073D231 /* FontClass.m in Sources */,
+				5475CFDF1CE5F0230063A18C /* AnimatedGif.m in Sources */,
+				5475CFE21CE5F0230063A18C /* FontAwesomeKit.m in Sources */,
 				5A776F0E1CD8D70A00597DC0 /* ViewController.m in Sources */,
 				5ABF8B8E1CD8C53A00222AE4 /* ViewHelper.m in Sources */,
+				5475CFE01CE5F0230063A18C /* ASStarRatingView.m in Sources */,
 				544661DC1CD8AAA100D2A88B /* AppDelegate.m in Sources */,
 				5AA1457C1CE4847600AB8219 /* HomeMapViewTableViewCell.m in Sources */,
+				5475CFCC1CE5EDDB0063A18C /* ProfileViewController.m in Sources */,
 				5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */,
+				5475CFE51CE5F0230063A18C /* UIImage+animatedGIF.m in Sources */,
 				5A23DC6F1CDC7DF80016334D /* MyPointsViewController.m in Sources */,
 				5A170A1F1CDB61510095B561 /* ImamTableViewCell.m in Sources */,
 				5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */,
@@ -394,9 +460,11 @@
 				5A08AEF01CD9FCFF00B3F5CF /* DescriptionTableViewCell.m in Sources */,
 				5A9D729F1CD8E150007DBAFF /* SignUpViewController.m in Sources */,
 				544661D91CD8AAA100D2A88B /* main.m in Sources */,
+				5475CFE41CE5F0230063A18C /* Reachability.m in Sources */,
 				5A08AEF61CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m in Sources */,
 				5A815F6A1CE33DA90073D231 /* LeftMenuViewController.m in Sources */,
 				5A25BA811CE1C02200C72535 /* MyClaimsViewController.m in Sources */,
+				5475CFE31CE5F0230063A18C /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
