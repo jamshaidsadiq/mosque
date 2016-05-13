@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "ViewHelper.h"
-#import "MosqueDetailViewController.h"
+#import "MyPointsViewController.h"
 
 @interface LoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIView *overLayView1;
@@ -91,10 +91,14 @@
 }
 - (IBAction)SignUpWithfacebook:(id)sender {
     
-    MosqueDetailViewController *mosqueDetail = [self.storyboard instantiateViewControllerWithIdentifier:@"MosqueDetailViewController"];
     
-    [self.navigationController pushViewController:mosqueDetail animated:YES];
+}
+- (IBAction)SignUpWithEmail:(id)sender {
     
+    MyPointsViewController *myPoints = [self.storyboard instantiateViewControllerWithIdentifier:@"MyPointsViewController"];
+    
+    [self.navigationController pushViewController:myPoints animated:YES];
+
 }
 
 /*

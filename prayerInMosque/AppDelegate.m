@@ -21,6 +21,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    if(NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1)
+    {
+        if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+            [self.locationManager requestWhenInUseAuthorization];
+        }
+    }
+    self.locationManager.delegate  = (id)self;
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [self.locationManager startUpdatingLocation];
+    
       return YES;
 }
 
@@ -44,6 +57,17 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+     didUpdateLocations:(NSArray *)locations
+{
+    
+    //usermodel.deviceToken=@"<9b3400a1 d36f9833 c1938397 e8bf91b4 ba04223e 479f855b d17309ef 6b3f063a>";
+   // CLLocation * updatedLocation=[locations lastObject];
+//        NSLog(@"Delegate Called Latitude is: %f" , updatedLocation.coordinate.latitude);
+//        NSLog(@"Delegate Called Longitude is: %f" , updatedLocation.coordinate.longitude);
+    
 }
 
 -(void)initializePkRevealController
@@ -72,11 +96,12 @@
                                                                     rightViewController:nil];
     // Step 3: Configure.
     self.revealController.delegate = self;
-    self.revealController.animationDuration = 0.25;
+    self.revealController.animationDuration = .25;
+    
     
     // Step 4: Apply.
     self.window.rootViewController = self.revealController;
-    
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
   
 }

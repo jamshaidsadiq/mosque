@@ -21,11 +21,22 @@
 		5A08AEF31CDA16B000B3F5CF /* PrayerTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEF21CDA16B000B3F5CF /* PrayerTimeTableViewCell.m */; };
 		5A08AEF61CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */; };
 		5A170A1F1CDB61510095B561 /* ImamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */; };
+		5A23DC6F1CDC7DF80016334D /* MyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A23DC6E1CDC7DF80016334D /* MyPointsViewController.m */; };
+		5A25BA811CE1C02200C72535 /* MyClaimsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25BA801CE1C02200C72535 /* MyClaimsViewController.m */; };
+		5A2E1CD61CE0B63F00AF9146 /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1CD51CE0B63F00AF9146 /* HeroTableViewCell.m */; };
 		5A776F0C1CD8D70A00597DC0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F071CD8D70A00597DC0 /* HomeViewController.m */; };
-		5A776F0D1CD8D70A00597DC0 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F091CD8D70A00597DC0 /* LeftMenuViewController.m */; };
 		5A776F0E1CD8D70A00597DC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F0B1CD8D70A00597DC0 /* ViewController.m */; };
 		5A776F111CD8D9E300597DC0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A776F101CD8D9E300597DC0 /* LoginViewController.m */; };
+		5A815F661CE31FF60073D231 /* FontClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A815F621CE31FF60073D231 /* FontClass.m */; };
+		5A815F671CE31FF60073D231 /* AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A815F631CE31FF60073D231 /* AppColors.m */; };
+		5A815F6A1CE33DA90073D231 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A815F691CE33DA90073D231 /* LeftMenuViewController.m */; };
 		5A9D729F1CD8E150007DBAFF /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D729E1CD8E150007DBAFF /* SignUpViewController.m */; };
+		5AA145751CE4716C00AB8219 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AA145731CE4716C00AB8219 /* OpenSans-Bold.ttf */; };
+		5AA145761CE4716C00AB8219 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AA145741CE4716C00AB8219 /* OpenSans-Regular.ttf */; };
+		5AA145791CE4739100AB8219 /* HomeListViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA145781CE4739100AB8219 /* HomeListViewTableViewCell.m */; };
+		5AA1457C1CE4847600AB8219 /* HomeMapViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1457B1CE4847600AB8219 /* HomeMapViewTableViewCell.m */; };
+		5AA1457E1CE4856300AB8219 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1457D1CE4856300AB8219 /* MapKit.framework */; };
+		5AA145801CE4856C00AB8219 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1457F1CE4856C00AB8219 /* CoreLocation.framework */; };
 		5ABF8B8A1CD8C3BE00222AE4 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF8B891CD8C3BE00222AE4 /* MyriadPro-Regular.otf */; };
 		5ABF8B8E1CD8C53A00222AE4 /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF8B8D1CD8C53A00222AE4 /* ViewHelper.m */; };
 /* End PBXBuildFile section */
@@ -54,16 +65,34 @@
 		5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueAddressTableViewCell.m; sourceTree = "<group>"; };
 		5A170A1D1CDB61510095B561 /* ImamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImamTableViewCell.h; sourceTree = "<group>"; };
 		5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImamTableViewCell.m; sourceTree = "<group>"; };
+		5A23DC6D1CDC7DF80016334D /* MyPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointsViewController.h; sourceTree = "<group>"; };
+		5A23DC6E1CDC7DF80016334D /* MyPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointsViewController.m; sourceTree = "<group>"; };
+		5A25BA7F1CE1C02200C72535 /* MyClaimsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClaimsViewController.h; sourceTree = "<group>"; };
+		5A25BA801CE1C02200C72535 /* MyClaimsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClaimsViewController.m; sourceTree = "<group>"; };
+		5A2E1CD41CE0B63F00AF9146 /* HeroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCell.h; sourceTree = "<group>"; };
+		5A2E1CD51CE0B63F00AF9146 /* HeroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewCell.m; sourceTree = "<group>"; };
 		5A776F061CD8D70A00597DC0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		5A776F071CD8D70A00597DC0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		5A776F081CD8D70A00597DC0 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
-		5A776F091CD8D70A00597DC0 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		5A776F0A1CD8D70A00597DC0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5A776F0B1CD8D70A00597DC0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A776F0F1CD8D9E300597DC0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5A776F101CD8D9E300597DC0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5A815F621CE31FF60073D231 /* FontClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontClass.m; sourceTree = "<group>"; };
+		5A815F631CE31FF60073D231 /* AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppColors.m; sourceTree = "<group>"; };
+		5A815F641CE31FF60073D231 /* AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppColors.h; sourceTree = "<group>"; };
+		5A815F651CE31FF60073D231 /* FontClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontClass.h; sourceTree = "<group>"; };
+		5A815F681CE33DA90073D231 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		5A815F691CE33DA90073D231 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		5A9D729D1CD8E150007DBAFF /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		5A9D729E1CD8E150007DBAFF /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		5AA145731CE4716C00AB8219 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		5AA145741CE4716C00AB8219 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		5AA145771CE4739100AB8219 /* HomeListViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListViewTableViewCell.h; sourceTree = "<group>"; };
+		5AA145781CE4739100AB8219 /* HomeListViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListViewTableViewCell.m; sourceTree = "<group>"; };
+		5AA1457A1CE4847600AB8219 /* HomeMapViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMapViewTableViewCell.h; sourceTree = "<group>"; };
+		5AA1457B1CE4847600AB8219 /* HomeMapViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMapViewTableViewCell.m; sourceTree = "<group>"; };
+		5AA1457D1CE4856300AB8219 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5AA1457F1CE4856C00AB8219 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5ABF8B891CD8C3BE00222AE4 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
 		5ABF8B8C1CD8C53A00222AE4 /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		5ABF8B8D1CD8C53A00222AE4 /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHelper.m; sourceTree = "<group>"; };
@@ -77,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA145801CE4856C00AB8219 /* CoreLocation.framework in Frameworks */,
+				5AA1457E1CE4856300AB8219 /* MapKit.framework in Frameworks */,
 				247005F44752AAC2045E01DA /* libPods-prayerInMosque.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +175,12 @@
 				5A08AEF51CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m */,
 				5A170A1D1CDB61510095B561 /* ImamTableViewCell.h */,
 				5A170A1E1CDB61510095B561 /* ImamTableViewCell.m */,
+				5A2E1CD41CE0B63F00AF9146 /* HeroTableViewCell.h */,
+				5A2E1CD51CE0B63F00AF9146 /* HeroTableViewCell.m */,
+				5AA145771CE4739100AB8219 /* HomeListViewTableViewCell.h */,
+				5AA145781CE4739100AB8219 /* HomeListViewTableViewCell.m */,
+				5AA1457A1CE4847600AB8219 /* HomeMapViewTableViewCell.h */,
+				5AA1457B1CE4847600AB8219 /* HomeMapViewTableViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -151,10 +188,10 @@
 		5A776F051CD8D70A00597DC0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A815F681CE33DA90073D231 /* LeftMenuViewController.h */,
+				5A815F691CE33DA90073D231 /* LeftMenuViewController.m */,
 				5A776F061CD8D70A00597DC0 /* HomeViewController.h */,
 				5A776F071CD8D70A00597DC0 /* HomeViewController.m */,
-				5A776F081CD8D70A00597DC0 /* LeftMenuViewController.h */,
-				5A776F091CD8D70A00597DC0 /* LeftMenuViewController.m */,
 				5A776F0A1CD8D70A00597DC0 /* ViewController.h */,
 				5A776F0B1CD8D70A00597DC0 /* ViewController.m */,
 				5A776F0F1CD8D9E300597DC0 /* LoginViewController.h */,
@@ -163,6 +200,10 @@
 				5A9D729E1CD8E150007DBAFF /* SignUpViewController.m */,
 				5A08AEE51CD9D4DC00B3F5CF /* MosqueDetailViewController.h */,
 				5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */,
+				5A23DC6D1CDC7DF80016334D /* MyPointsViewController.h */,
+				5A23DC6E1CDC7DF80016334D /* MyPointsViewController.m */,
+				5A25BA7F1CE1C02200C72535 /* MyClaimsViewController.h */,
+				5A25BA801CE1C02200C72535 /* MyClaimsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +211,8 @@
 		5ABF8B881CD8C3BE00222AE4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5AA145731CE4716C00AB8219 /* OpenSans-Bold.ttf */,
+				5AA145741CE4716C00AB8219 /* OpenSans-Regular.ttf */,
 				5ABF8B891CD8C3BE00222AE4 /* MyriadPro-Regular.otf */,
 			);
 			path = Fonts;
@@ -178,6 +221,10 @@
 		5ABF8B8B1CD8C50D00222AE4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5A815F621CE31FF60073D231 /* FontClass.m */,
+				5A815F631CE31FF60073D231 /* AppColors.m */,
+				5A815F641CE31FF60073D231 /* AppColors.h */,
+				5A815F651CE31FF60073D231 /* FontClass.h */,
 				5ABF8B8C1CD8C53A00222AE4 /* ViewHelper.h */,
 				5ABF8B8D1CD8C53A00222AE4 /* ViewHelper.m */,
 			);
@@ -187,6 +234,8 @@
 		8D184AF2E47D2AC1F1A89653 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AA1457F1CE4856C00AB8219 /* CoreLocation.framework */,
+				5AA1457D1CE4856300AB8219 /* MapKit.framework */,
 				AB9243FB517185B4B34219A5 /* libPods-prayerInMosque.a */,
 			);
 			name = Frameworks;
@@ -263,6 +312,8 @@
 			files = (
 				544661E71CD8AAA100D2A88B /* LaunchScreen.storyboard in Resources */,
 				5ABF8B8A1CD8C3BE00222AE4 /* MyriadPro-Regular.otf in Resources */,
+				5AA145751CE4716C00AB8219 /* OpenSans-Bold.ttf in Resources */,
+				5AA145761CE4716C00AB8219 /* OpenSans-Regular.ttf in Resources */,
 				544661F71CD8B9F700D2A88B /* Views.storyboard in Resources */,
 				544661E41CD8AAA100D2A88B /* Assets.xcassets in Resources */,
 				544661E21CD8AAA100D2A88B /* Main.storyboard in Resources */,
@@ -324,21 +375,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA145791CE4739100AB8219 /* HomeListViewTableViewCell.m in Sources */,
+				5A2E1CD61CE0B63F00AF9146 /* HeroTableViewCell.m in Sources */,
+				5A815F661CE31FF60073D231 /* FontClass.m in Sources */,
 				5A776F0E1CD8D70A00597DC0 /* ViewController.m in Sources */,
 				5ABF8B8E1CD8C53A00222AE4 /* ViewHelper.m in Sources */,
-				5A776F0D1CD8D70A00597DC0 /* LeftMenuViewController.m in Sources */,
 				544661DC1CD8AAA100D2A88B /* AppDelegate.m in Sources */,
+				5AA1457C1CE4847600AB8219 /* HomeMapViewTableViewCell.m in Sources */,
 				5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */,
+				5A23DC6F1CDC7DF80016334D /* MyPointsViewController.m in Sources */,
 				5A170A1F1CDB61510095B561 /* ImamTableViewCell.m in Sources */,
 				5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */,
 				5A776F111CD8D9E300597DC0 /* LoginViewController.m in Sources */,
 				5A08AEF31CDA16B000B3F5CF /* PrayerTimeTableViewCell.m in Sources */,
 				5A776F0C1CD8D70A00597DC0 /* HomeViewController.m in Sources */,
+				5A815F671CE31FF60073D231 /* AppColors.m in Sources */,
 				5A08AEE71CD9D4DC00B3F5CF /* MosqueDetailViewController.m in Sources */,
 				5A08AEF01CD9FCFF00B3F5CF /* DescriptionTableViewCell.m in Sources */,
 				5A9D729F1CD8E150007DBAFF /* SignUpViewController.m in Sources */,
 				544661D91CD8AAA100D2A88B /* main.m in Sources */,
 				5A08AEF61CDA24DA00B3F5CF /* MosqueAddressTableViewCell.m in Sources */,
+				5A815F6A1CE33DA90073D231 /* LeftMenuViewController.m in Sources */,
+				5A25BA811CE1C02200C72535 /* MyClaimsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

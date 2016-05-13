@@ -15,4 +15,5 @@
 +(void)roundCornerButton:(UIButton *)button;
 +(void)roundCornerTextField:(UITextField *)textField;
 +(void) animateTextFieldUp:(BOOL)up viewToMove:(UIView *)view DistanceToMove:(int)distance AnimationDuration:(float) duration;
++(void)addButtonSeparator:(UIButton *)button;
 @end

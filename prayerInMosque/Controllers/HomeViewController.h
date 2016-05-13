@@ -6,8 +6,8 @@
 //  Copyright © 2016 Humza Shahid. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface HomeViewController : NSObject
+@interface HomeViewController : UIViewController
 
 @end

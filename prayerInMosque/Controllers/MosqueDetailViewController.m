@@ -35,7 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationController.navigationBarHidden = NO;
-    self.navigationController.navigationBar.barTintColor = [UIColor navColor];
+    self.navigationController.navigationBar.barTintColor = [UIColor navBarColor];
     [self.navigationController.navigationBar setTitleTextAttributes:
      @{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
@@ -68,7 +68,9 @@
         
         
     }
-    [imgCell.contentView bringSubviewToFront:imgCell.pageControll];
+    
+    [imgCell.pageControll addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
+    
     
 }
 
@@ -150,7 +152,7 @@
           return [self heightForBasicCellAtIndexPath:indexPath];
         
     }
-    else if(indexPath.section==2)
+    else if(indexPath.section==3)
     {
         return 150.0f;
     }else{
@@ -269,6 +271,21 @@
 
 
 
+- (IBAction)changePage:(id)sender {
+    
+    UIPageControl *pager=sender;
+    int page = (int)pager.currentPage;
+    
+    CGRect frame = imgCell.scrollView.frame;
+    frame.origin.x = frame.size.width * page;
+    frame.origin.y = 0;
+    [imgCell.scrollView scrollRectToVisible:frame animated:YES];
+    
+}
+- (IBAction)goBack:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 /*
 #pragma mark - Navigation

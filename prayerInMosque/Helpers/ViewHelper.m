@@ -35,6 +35,19 @@
     textField.layer.masksToBounds = YES;
 }
 
++(void)addButtonSeparator:(UIButton *)button
+{
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = button.bounds;
+    CALayer *leftBorder = [CALayer layer];
+    leftBorder.opacity=0.7f;
+    leftBorder.frame = CGRectMake(0.0f, 10.0f,5.0f, 17);
+    //leftBorder.backgroundColor = [UIColor colorWithRed:191/255.0f green:191/255.0f blue:191/255.0f alpha:1.0f].CGColor;
+    leftBorder.backgroundColor = [UIColor redColor].CGColor;
+    [gradient addSublayer:leftBorder];
+    [button.layer addSublayer:gradient];
+}
+
 
 +(void) animateTextFieldUp:(BOOL)up viewToMove:(UIView *)view DistanceToMove:(int)distance AnimationDuration:(float) duration
 {
