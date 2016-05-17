@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HadithViewController : UIViewController
-
+- (IBAction)menu:(id)sender;
 @end

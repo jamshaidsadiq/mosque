@@ -75,7 +75,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcI-fZ-Dqz">
                                 <rect key="frame" x="0.0" y="64" width="414" height="60"/>
                                 <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Pbq-Ct-esw">
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Pbq-Ct-esw">
                                         <rect key="frame" x="9" y="16" width="396" height="29"/>
                                         <segments>
                                             <segment title="Map View"/>
@@ -90,6 +90,9 @@
                                 <color key="backgroundColor" red="0.63137254901960782" green="0.79607843137254897" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="4Ju-zB-l9F"/>
+                                    <constraint firstItem="Pbq-Ct-esw" firstAttribute="leading" secondItem="qcI-fZ-Dqz" secondAttribute="leading" constant="9" id="GN6-2b-fMW"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pbq-Ct-esw" secondAttribute="trailing" constant="9" id="Ntx-7s-v2n"/>
+                                    <constraint firstItem="Pbq-Ct-esw" firstAttribute="centerY" secondItem="qcI-fZ-Dqz" secondAttribute="centerY" id="NyP-ti-Spk"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="114" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YCB-Q7-vmO">
@@ -396,7 +399,7 @@
                                                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="HADITH OF Day" image="rewards">
+                                                    <state key="normal" title="HADITH OF DAY" image="rewards">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -664,8 +667,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftMenuBG" translatesAutoresizingMaskIntoConstraints="NO" id="LDc-7U-XQb">
-                                <rect key="frame" x="0.0" y="-8" width="414" height="736"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="leftMenuBG" translatesAutoresizingMaskIntoConstraints="NO" id="LDc-7U-XQb">
+                                <rect key="frame" x="0.0" y="-8" width="414" height="744"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today’s Beautiful Hadith is about Azan" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ny9-W2-PO7">
                                 <rect key="frame" x="20" y="57" width="374" height="81"/>
@@ -704,7 +707,7 @@
                             <constraint firstItem="WQB-Qq-CXx" firstAttribute="centerX" secondItem="6KR-YR-KbW" secondAttribute="centerX" id="gfY-Rq-EO1"/>
                             <constraint firstItem="HCb-Mz-Lk4" firstAttribute="top" secondItem="QN9-Nq-xx8" secondAttribute="bottom" constant="354" id="ijX-eX-pQJ"/>
                             <constraint firstItem="WQB-Qq-CXx" firstAttribute="top" secondItem="ny9-W2-PO7" secondAttribute="bottom" constant="21" id="mlu-G1-Bio"/>
-                            <constraint firstItem="HCb-Mz-Lk4" firstAttribute="top" secondItem="LDc-7U-XQb" secondAttribute="bottom" constant="8" symbolic="YES" id="zK9-Jq-OIg"/>
+                            <constraint firstItem="HCb-Mz-Lk4" firstAttribute="top" secondItem="LDc-7U-XQb" secondAttribute="bottom" id="zK9-Jq-OIg"/>
                             <constraint firstItem="ny9-W2-PO7" firstAttribute="centerX" secondItem="LDc-7U-XQb" secondAttribute="centerX" id="zVk-ba-PSZ"/>
                             <constraint firstItem="ny9-W2-PO7" firstAttribute="leading" secondItem="6KR-YR-KbW" secondAttribute="leadingMargin" id="zgz-ab-aA2"/>
                         </constraints>
@@ -719,7 +722,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="menu:" destination="RXh-uF-ymd" eventType="touchUpInside" id="LND-A4-68w"/>
+                                    <action selector="menu:" destination="sFu-p3-HM4" eventType="touchUpInside" id="WJm-FT-o46"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -1066,7 +1069,7 @@
                                     <constraint firstAttribute="height" constant="70" id="5N7-IM-L2L"/>
                                     <constraint firstAttribute="width" constant="70" id="cAP-qW-Fnc"/>
                                 </constraints>
-                                <state key="normal">
+                                <state key="normal" backgroundImage="humza">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1249,6 +1252,7 @@
         <image name="drawer" width="14" height="11"/>
         <image name="facebook" width="16" height="16"/>
         <image name="home" width="16" height="16"/>
+        <image name="humza" width="1140" height="1140"/>
         <image name="instagram" width="16" height="16"/>
         <image name="leftMenuBG" width="414" height="736"/>
         <image name="message" width="16" height="12"/>

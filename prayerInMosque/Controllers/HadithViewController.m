@@ -39,6 +39,10 @@
     
 }
 
+- (IBAction)menu:(id)sender {
+    [self.revealController showViewController:self.revealController.leftViewController];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
