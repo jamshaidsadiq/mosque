@@ -23,6 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
+     self.window.backgroundColor = [UIColor whiteColor];
     self.locationManager = [[CLLocationManager alloc] init];
     if(NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1)
     {
@@ -76,19 +77,9 @@
     
     LeftMenuViewController * leftController = [[UIStoryboard storyboardWithName:@"Views" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
     
+     // Step 1: Create your controllers.
     HomeViewController * homeController = [[UIStoryboard storyboardWithName:@"Views" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomeViewController"];
-    
-    
     UINavigationController * frontNavController = [[UINavigationController alloc] initWithRootViewController:homeController];
-    
-    
-    // Step 1: Create your controllers.
-    //    UIViewController *frontViewController = [[UIViewController alloc] init];
-    //    frontViewController.view.backgroundColor = [UIColor orangeColor];
-    //
-    // UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:frontViewController];
-    //    UIViewController *rightViewController = [[UIViewController alloc] init];
-    //    rightViewController.view.backgroundColor = [UIColor redColor];
     
     // Step 2: Instantiate.
     self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavController
@@ -97,7 +88,6 @@
     // Step 3: Configure.
     self.revealController.delegate = self;
     self.revealController.animationDuration = .25;
-    
     
     // Step 4: Apply.
     self.window.rootViewController = self.revealController;

@@ -23,6 +23,7 @@
 		5475CFE31CE5F0230063A18C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDA1CE5F0230063A18C /* MBProgressHUD.m */; };
 		5475CFE41CE5F0230063A18C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDC1CE5F0230063A18C /* Reachability.m */; };
 		5475CFE51CE5F0230063A18C /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475CFDE1CE5F0230063A18C /* UIImage+animatedGIF.m */; };
+		5475D0071CEB02270063A18C /* HadithViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475D0061CEB02270063A18C /* HadithViewController.m */; };
 		5A08AEE41CD9D32300B3F5CF /* MosqueImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */; };
 		5A08AEE71CD9D4DC00B3F5CF /* MosqueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEE61CD9D4DC00B3F5CF /* MosqueDetailViewController.m */; };
 		5A08AEED1CD9E40600B3F5CF /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08AEEC1CD9E40600B3F5CF /* HeaderTableViewCell.m */; };
@@ -77,6 +78,8 @@
 		5475CFDC1CE5F0230063A18C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5475CFDD1CE5F0230063A18C /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		5475CFDE1CE5F0230063A18C /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		5475D0051CEB02260063A18C /* HadithViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HadithViewController.h; sourceTree = "<group>"; };
+		5475D0061CEB02270063A18C /* HadithViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HadithViewController.m; sourceTree = "<group>"; };
 		5A08AEE21CD9D32300B3F5CF /* MosqueImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueImageTableViewCell.h; sourceTree = "<group>"; };
 		5A08AEE31CD9D32300B3F5CF /* MosqueImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosqueImageTableViewCell.m; sourceTree = "<group>"; };
 		5A08AEE51CD9D4DC00B3F5CF /* MosqueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosqueDetailViewController.h; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 				5A25BA801CE1C02200C72535 /* MyClaimsViewController.m */,
 				5475CFCA1CE5EDDB0063A18C /* ProfileViewController.h */,
 				5475CFCB1CE5EDDB0063A18C /* ProfileViewController.m */,
+				5475D0051CEB02260063A18C /* HadithViewController.h */,
+				5475D0061CEB02270063A18C /* HadithViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 				5475CFE21CE5F0230063A18C /* FontAwesomeKit.m in Sources */,
 				5A776F0E1CD8D70A00597DC0 /* ViewController.m in Sources */,
 				5ABF8B8E1CD8C53A00222AE4 /* ViewHelper.m in Sources */,
+				5475D0071CEB02270063A18C /* HadithViewController.m in Sources */,
 				5475CFE01CE5F0230063A18C /* ASStarRatingView.m in Sources */,
 				544661DC1CD8AAA100D2A88B /* AppDelegate.m in Sources */,
 				5AA1457C1CE4847600AB8219 /* HomeMapViewTableViewCell.m in Sources */,

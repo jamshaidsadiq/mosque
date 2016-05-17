@@ -10,6 +10,6 @@
 
 @interface LeftMenuViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-- (IBAction)pushToController:(id)sender;
+- (IBAction)pushToController:(UIButton *)sender;
 
 @end

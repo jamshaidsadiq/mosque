@@ -8,11 +8,8 @@
 
 #import "ProfileViewController.h"
 #import "CustomButton.h"
-//#import "UserModel.h"
 #import "AppColors.h"
 #import "PKRevealController.h"
-//#import "WebServiceDelegates.h"
-//#import "UIImageView+WebCache.h"
 @interface ProfileViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *menuButton;
 @property (weak, nonatomic) IBOutlet UIButton *editButton;
@@ -26,16 +23,13 @@
 
 @implementation ProfileViewController
 {
-//    UserModel * userModel;
-//    BOOL newImage;
+
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-//    userModel=[UserModel getInstance];
+
     [self designView];
-   // [self populateView];
     
 }
 
@@ -53,22 +47,6 @@
     
 }
 
-
-//-(void)setImageView
-//{
-//    self.activityIndicator.hidden=NO;
-//    [self.activityIndicator startAnimating];
-//    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
-//    [[CustomButton sharedMySingleton] downloadImageWithURL:[NSURL URLWithString:userModel.picture_url] completionBlock:^(BOOL succeeded, UIImage *image) {
-//        if (succeeded) {
-//            [self.imageButton setBackgroundImage:image forState:UIControlStateNormal];
-//            self.activityIndicator.hidden=YES;
-//            [self.activityIndicator removeFromSuperview];
-//            userModel.userImage=image;
-//            [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-//        }
-//    }];
-//}
 -(BOOL) textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
@@ -120,16 +98,11 @@
             imagePicker.allowsEditing = YES;
             [self presentViewController:imagePicker animated:YES completion:nil];
         }
-        /*UIImagePickerController * picker = [[UIImagePickerController alloc] init];
-         picker.delegate = self;
-         picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
-         [self presentModalViewController:picker animated:YES];
-         [picker release]; */
+        
         
     }
     
     if (!(buttonIndex == [actionSheet cancelButtonIndex])) {
-        //NSString *msg = nil;
         
     }
 }
@@ -141,15 +114,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 - (IBAction)logOut:(id)sender {
     
   [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:[[NSBundle mainBundle] bundleIdentifier]];
