@@ -26,7 +26,7 @@
 }
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UIButton *buttonCheckin;
+@property (weak, nonatomic) IBOutlet UIButton *buttonCheckin;//Button for check-in the  child
 
 @end
 
